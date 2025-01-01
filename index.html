@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>???</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    // 定义颜色数组
+    const colors = ["red", "orange", "yellow", "green", "cyan", "blue", "purple"];
+    document.addEventListener("click", function () {
+      const randomIndex = Math.floor(Math.random() * colors.length);
+      document.body.style.backgroundColor = colors[randomIndex];
+    });
+  </script>
+</body>
+
+</html>
